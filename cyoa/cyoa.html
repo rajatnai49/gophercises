@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>cyoa</title>
+</head>
+
+<body>
+    <h1>{{.Title}}</h1>
+    <div>
+        {{ range $val := .Story }}
+        <p> {{$val}} </p>
+        {{ end }}
+    </div>
+    <div>
+        {{ range $val := .Options }}
+        <a href="/{{$val.Arc}}"> {{$val.Text}} </a>
+        <hr />
+        {{end}}
+    </div>
+</body>
+
+</html>
