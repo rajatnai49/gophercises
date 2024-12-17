@@ -11,4 +11,4 @@ What are Gophercises?
 | Exercise-3 | [Choose Your Own Adventure](/cyoa) |
 | Exercise-4 | [HTML Link Parser](/link) |
 | Exercise-6 | [CLI TODO App](/task) |
-
+| Exercise-7 | [Phone Number Normalizer](/phone) |
